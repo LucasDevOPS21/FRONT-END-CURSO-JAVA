@@ -1,8 +1,84 @@
-/*
+
+/* RESET - Normalize 
 *Folhas de estilo do template do site.
 * By Jonathan
 *
 */ 
+/* RESET - Normalize */
+*{
+    box-sizing: border-box;
+    outline: none
+}
+/* Relacionando tags*/ 
+html,
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+  a{
+    color: aliceblue;
+    text-decoration: none;
+
+  }     
+  main {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+  }
+  a:hover{
+    color: rgb(255, 0, 0)
+  }
+  footer {
+    color: rgb(0, 0, 0)
+  }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+/* Definir a fonte e o fundo padrão da página*/
+  html,body{
+    font-family: Roboto, sans-serif;
+    /*Criamps uma nova unidade chamada 'rem' → 1rem = 16px*/
+    font-size: 16px;
+    /* Fundo */
+    background-attachment: fixed;
+    background-color: rgb(111, 12, 15);
+    background-image: url('img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+    ;
+  }
+  /* Limita e centraliza a página usando 'wrap'. */
+  #wrap{
+    position: relative;
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+  }
+  /* Renderiza cabeçalho*/
+  /*Mudar tamanho de Ícone*/
+  #wrap>header{
+    height: 15%;
+    background-color: rgb(182, 21, 27);
+    margin: 0.5rem;
+    border-radius: 0.8rem;
+    border: 5px dotted black;
+    display: flex;
+
+  }
+
+/*mudar tamanho de imagem*/
+  #wrap>header>a>img {
+
+    width: 100px;
+    height: 100px;
+
+  }
+  #wrap>header>h1{
+    
+  }
