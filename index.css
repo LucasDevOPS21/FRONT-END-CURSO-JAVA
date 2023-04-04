@@ -3,6 +3,65 @@
 * By Jonathan
 *
 */ 
+/* RESET - Normalize */
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html,
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: steelblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+body {
+    /* Fundo */
+    background-attachment: fixed;
+    background-color: rgb(0, 0, 89);
+    background-image: url('/img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Limita e centraliza a página usando 'wrap'. */
+
+#wrap {
+    position: relative;
+    background-color: azure;
+    height: 100%;
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+}
+
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+/* Define a fonte e o funco padrão da página. */
+
+html, body {
+    font-family: Roboto, sans-serif;
+/* Criamos uma nova unidade chamada 'rem' → 1rem = 16px */
+font-size: 16px;
+
+
+
+}
