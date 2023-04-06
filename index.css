@@ -73,7 +73,7 @@ body {
 /* Renderiza cabeçalho*/
 /*Mudar tamanho de Ícone*/
 #wrap>header {
-  background-color: rgba(182, 21, 27, .8);
+  background-color: rgba(0, 0, 0, 0.8);
   margin: 0.5rem;
   border-radius: 0.8rem;
   border: 3px solid black;
@@ -82,6 +82,7 @@ body {
 }
 
 #wrap>header>h1 {
+  color: white;
   font-style: italic;
   font-size: 2.4rem;
   text-align: center;
@@ -130,8 +131,8 @@ body {
 }
 
 #wrap>main>article {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgb(0, 0, 0);
   margin: 0 .5rem .5rem .5rem;
   flex-direction: column;
   border-radius: 0.35rem;
@@ -141,8 +142,8 @@ body {
 }
 
 #wrap>main>aside {
-  color: white;
-  background-color: rgba(12, 8, 8, .3);
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: .35rem;
   padding: .5rem;
   margin: 0 .5rem 0 .5rem;
@@ -151,7 +152,7 @@ body {
 /* Rodapé */
 
 #wrap>footer {
-  color: white;
+  color: rgb(16, 15, 15);
   margin: .5rem .5rem .5rem .5rem;
 }
 
@@ -179,18 +180,18 @@ body {
 }
 
 .footer-top a {
-  color: #ddd;
+  color: #030303;
   font-size: 1.5rem;
   padding: .25rem;
 }
 
 .footer-top a:hover {
-  color: #929292;
+  color: rgb(155, 155, 155);
   text-decoration: none;
 }
 
 .footer-top div {
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   font-size: .75rem;
 }
@@ -202,7 +203,7 @@ body {
 .footer-bottom {
   display: flex;
   justify-content: space-around;
-  color: #ddd;
+  color: #000000;
 }
 
 .footer-bottom h4 {
@@ -216,7 +217,7 @@ body {
 }
 
 .footer-bottom a {
-  color: #ddd;
+  color: #000000;
 }
 
 .footer-bottom a:hover {
